@@ -1,0 +1,124 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Cadastro de compromisso:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Título"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_local"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Local"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_data"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Data (dd/mm/aaaa)"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_hora"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Hora"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_dia_semana"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Dia da Semana"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Descrição"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Salvar Compromisso"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+    </LinearLayout>
+</ScrollView>
